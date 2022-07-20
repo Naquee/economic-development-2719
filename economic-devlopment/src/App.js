@@ -12,6 +12,7 @@ import EveryThing from './components/pages/EveryThing';
 import Sale from './components/pages/Sale';
 import Serach from './components/pages/Serach';
 import Home from './components/Home/Home';
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 
@@ -19,6 +20,8 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <div className="App">
+     <ChakraProvider>
+    
   <Navbar/>
   
  
@@ -32,6 +35,8 @@ function App() {
     </Routes>
 
     <Home/>
+
+    </ChakraProvider>
 
     </div>
   );
