@@ -1,0 +1,13 @@
+.parent1{
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.parent2{
+    display: flex;
+    gap: 2rem;
+    margin: auto ;
+}
