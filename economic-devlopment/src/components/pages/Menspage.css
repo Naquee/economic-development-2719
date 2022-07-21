@@ -1,0 +1,17 @@
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+} */
+.mainpagep0{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-top: 1rem;
+
+}
+.mainpagep0>div{
+    border: 1px solid red;
+    border-radius: 20px;
+}

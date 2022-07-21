@@ -11,3 +11,6 @@ img{
     gap: 2rem;
     margin: auto ;
 }
+.parent3{
+    display: flex;
+}
