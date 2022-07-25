@@ -14,6 +14,7 @@ import Serach from './components/pages/Serach';
 import Home from './components/Home/Home';
 import { ChakraProvider } from '@chakra-ui/react'
 import Login from './components/pages/Login';
+import Cart from './components/pages/Cart';
 
 
 
@@ -35,6 +36,7 @@ function App() {
       <Route path="/sale" element={<Sale/>} />
       <Route path="/search" element={<Serach/>} /> 
       <Route path="/login" element={<Login/>} /> 
+      <Route path='/cart' element={<Cart/>}/>
     </Routes>
 
 
